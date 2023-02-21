@@ -1,0 +1,80 @@
+*{ /*global background color styling*/
+background-color: lightgrey;
+}
+
+a{ /*global color styling for links*/
+color: rgb(112, 112, 1);
+}
+
+a:hover{ /*global color styling for link hovering*/
+color: cadetblue;
+}
+
+a:visited{ /*global color styling for link hovering*/
+color: brown;    
+}
+
+h1{ /*global for h1 element*/
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+letter-spacing: 5px; /*new element from outside class*/
+white-space: pre-line; /*new element from outside class*/
+color: purple;
+}
+
+hr{ /*global coloring for horizontal lines*/
+border-color: rgb(8, 44, 26);
+}
+
+#wrapper{ /*local id styling*/
+padding: 1px;
+margin: 1px;
+}
+
+input{ /*global color for input*/
+background-color: lavender;
+}
+
+.pic1{ /*local class styling*/
+border: 10px solid rgb(123, 93, 166);
+border-radius: 20px; /*new element from outside class; used to control border edges*/
+padding: 8px;
+}
+
+.pic2{ /*local class styling*/
+border: 10px solid rgb(169, 117, 13);
+border-radius: 20px;
+padding: 8px;
+}
+
+.pic3{ /*local class styling*/
+border: 10px solid rgb(228, 95, 54);
+border-radius: 50%;
+padding: 8px;
+width: 50%;
+}
+
+.pic4{ /*local class styling*/
+border: 10px solid rgb(32, 11, 4);
+border-radius: 30px;
+padding: 8px;
+}
+
+.pic5{ /*local class styling*/
+border: 10px solid rgb(71, 91, 92);
+border-radius: 100%;
+padding: 8px;
+}
+
+img:hover{ /*new element from outside class*/
+box-shadow: 0 5px 20px 0 darkslategray;
+}
+
+iframe{
+height: 350px;
+width: 650px;
+padding: 5px;
+margin: 10px;
+box-shadow:  rgb(57, 53, 53);
+outline: 5px outset gray; /*new element from outside class*/
+}
